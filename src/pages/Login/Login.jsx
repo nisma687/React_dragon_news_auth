@@ -1,6 +1,6 @@
 import Navbar from "../Shared/navbar/navbar";
+import {Link} from "react-router-dom";
 
-import Link from "react-router-dom/Link";
 const Login = () => {
     const handleLogin=(e)=>{
         e.preventDefault();
@@ -49,7 +49,7 @@ const Login = () => {
         <button className="btn btn-primary">Login</button>
         </div>
         </form>
-        <p>Don't have an account?<Link to="/register">
+        <p>Dont have an account?<Link to="/register">
         Please Register!!!
         </Link></p>
         </div>
